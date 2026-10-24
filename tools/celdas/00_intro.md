@@ -12,7 +12,7 @@ Al final tendrás un asistente que recomienda **rutas turísticas del Valle del 
 ### Antes de empezar (una sola vez)
 1. Crea tu API key en [Google AI Studio](https://aistudio.google.com/apikey).
 2. En Colab abre 🔑 **Secretos** (panel izquierdo), crea uno llamado `GEMINI_API_KEY`, pega tu key y activa **Acceso desde el notebook**.
-3. Ejecuta la celda de abajo con ▶️.
+3. Ejecuta la celda de abajo con ▶️. Tarda ~1 minuto. Si sale un aviso rojo de pip sobre "dependency conflicts", **ignóralo**: lo importante es ver ✅ al final.
 
 > 🆘 **¿Sin internet o sin key?** En la celda de preparación cambia `USE_MOCK = False` por `USE_MOCK = True`. El taller corre con respuestas precargadas y todo el código es el mismo.
 >

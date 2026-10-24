@@ -1,5 +1,5 @@
 # ⚙️ Preparación: ejecútala una vez y sigue
-!pip install -q -U google-genai gradio
+!pip install -q google-genai gradio   # si sale un aviso rojo de "dependency conflicts", ignóralo
 
 import os, json, subprocess
 

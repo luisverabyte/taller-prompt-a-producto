@@ -83,3 +83,10 @@ Guion minuto a minuto. En cada fase: qué dices, qué haces en pantalla y qué h
 | Colab no abre o está lento | Que usen la rama más cercana desde su celular o con su pareja. Tú sigues desde tu pantalla. |
 | Vas 5 minutos atrasado | Pega `validar_ruta` y el `gr.Blocks` completos desde las ramas en lugar de escribirlos. |
 | Te quedas sin tiempo | Cierra con el showcase de 2 parejas y comparte el repo. |
+
+## Enlaces del ponente
+
+- Slides (6): https://claude.ai/artifact/EzxFRTU9of6zAR5kDQyf7H
+- Temporizador (también en `materiales/temporizador.html`, funciona sin conexión una vez abierto): https://claude.ai/artifact/L1DZjfz6VDavxRXdjQmaMh
+
+Atajos del temporizador: `espacio` inicia o pausa, `←` y `→` cambian de fase, `+` y `-` ajustan un minuto, `R` reinicia y `F` pone pantalla completa.

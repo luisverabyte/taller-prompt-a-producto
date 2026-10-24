@@ -51,6 +51,7 @@ Guion minuto a minuto. En cada fase: qué dices, qué haces en pantalla y qué h
 3. (3 min) Escribe `validar_ruta` con dos validaciones y ejecuta `crear_ruta`. Muestra el reintento si aparece.
 4. (4 min) Micro-reto: cada pareja cambia `ROL`, `DATOS` y `PREGUNTA`.
 
+**Dato para decir en vivo:** la validación revisa lo que le pides (lugares del catálogo, costo, días), no que los tips sean verdad. En las pruebas el modelo agregó detalles que no estaban en el catálogo. Validar es decidir qué revisas.
 **Tips de PM (30 segundos, dilos mientras escriben):** define el usuario, el caso de uso mínimo y la métrica. Ejemplo de métrica: porcentaje de rutas válidas a la primera.
 **Si vas tarde:** salta el micro-reto y pásalo a la tarea. **Nunca recortes el CP3**, es el momento más motivador.
 **Rama de rescate:** `cp2-logica-producto`.
@@ -63,6 +64,7 @@ Guion minuto a minuto. En cada fase: qué dices, qué haces en pantalla y qué h
 2. Escribe el `gr.Blocks` (o pégalo si vas justo de tiempo) y ejecuta `demo.launch(share=True)`.
 3. Pide que abran el link en su celular y lo suban al muro compartido.
 
+**Si el link muestra "Error" sin detalle:** la API falló al responder. Con `show_error=True` ahora se ve el motivo; casi siempre es el 503 de alta demanda: espera unos segundos y pulsa el botón de nuevo.
 **Si falla `share=True`:** sin internet el link público no existe. Usa la URL local o la pestaña embebida de Colab y muestra desde ahí.
 **Rama de rescate:** `cp3-interfaz`.
 
@@ -79,6 +81,7 @@ Guion minuto a minuto. En cada fase: qué dices, qué haces en pantalla y qué h
 | Qué pasa | Qué haces |
 |---|---|
 | Se cae el wifi | Hotspot propio. Si tampoco hay: `USE_MOCK = True` para todos. |
+| Error 503 "alta demanda" en varias parejas | Es el servicio de Google, no el código. El notebook reintenta solo. Si persiste: que cambien a `MODEL = "gemini-3.1-flash-lite"` o pasen a `USE_MOCK = True`. Tú sigue con el mock en pantalla. |
 | Muchos 429 a la vez | Todos comparten la IP del local, pero los límites son por proyecto. Pide que cada pareja use su propia key y espacia las ejecuciones. Si persiste: mock. |
 | Colab no abre o está lento | Que usen la rama más cercana desde su celular o con su pareja. Tú sigues desde tu pantalla. |
 | Vas 5 minutos atrasado | Pega `validar_ruta` y el `gr.Blocks` completos desde las ramas en lugar de escribirlos. |

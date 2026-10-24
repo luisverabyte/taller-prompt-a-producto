@@ -3,7 +3,7 @@
 
 import os, json, subprocess
 
-REPO = "https://github.com/typoluis/taller-prompt-a-producto"
+REPO = "https://github.com/luisverabyte/taller-prompt-a-producto"
 if not os.path.exists("data/lugares.json"):
     subprocess.run(["git", "clone", "--depth", "1", REPO, "taller"], check=True)
     os.chdir("taller")

@@ -13,7 +13,7 @@ prompt  →  llamada a la API  →  respuesta estructurada (JSON)  →  interfaz
 
 1. **Crea tu API key** en [Google AI Studio](https://aistudio.google.com/apikey) (es gratis).
 2. **Abre el notebook en Colab:**
-   [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/typoluis/taller-prompt-a-producto/blob/cp0-inicio/taller.ipynb)
+   [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luisverabyte/taller-prompt-a-producto/blob/cp0-inicio/taller.ipynb)
 3. **Guarda tu key como secreto:** en Colab abre 🔑 **Secretos**, crea `GEMINI_API_KEY`, pega la key y activa **Acceso desde el notebook**.
 
 Ejecuta la primera celda con ▶️ y sigue el notebook de arriba hacia abajo.
@@ -34,10 +34,10 @@ Cada rama tiene el notebook con ese checkpoint **ya resuelto**. Si no pudiste te
 
 | Rama | Estado del notebook | Abrir |
 |---|---|---|
-| `cp0-inicio` | Punto de partida (CP1, CP2 y CP3 por completar) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/typoluis/taller-prompt-a-producto/blob/cp0-inicio/taller.ipynb) |
-| `cp1-primera-llamada` | CP1 resuelto | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/typoluis/taller-prompt-a-producto/blob/cp1-primera-llamada/taller.ipynb) |
-| `cp2-logica-producto` | CP1 y CP2 resueltos | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/typoluis/taller-prompt-a-producto/blob/cp2-logica-producto/taller.ipynb) |
-| `cp3-interfaz` y `main` | Todo resuelto | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/typoluis/taller-prompt-a-producto/blob/main/taller.ipynb) |
+| `cp0-inicio` | Punto de partida (CP1, CP2 y CP3 por completar) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luisverabyte/taller-prompt-a-producto/blob/cp0-inicio/taller.ipynb) |
+| `cp1-primera-llamada` | CP1 resuelto | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luisverabyte/taller-prompt-a-producto/blob/cp1-primera-llamada/taller.ipynb) |
+| `cp2-logica-producto` | CP1 y CP2 resueltos | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luisverabyte/taller-prompt-a-producto/blob/cp2-logica-producto/taller.ipynb) |
+| `cp3-interfaz` y `main` | Todo resuelto | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luisverabyte/taller-prompt-a-producto/blob/main/taller.ipynb) |
 
 ## 🔌 Plan B: sin internet o sin API key
 

@@ -4,7 +4,10 @@ INTERESES = ["cultura", "naturaleza", "gastronomía", "artesanía", "aventura", 
 
 
 def planificar(dias, presupuesto, intereses, grupo):
-    ruta, problemas = crear_ruta(int(dias), int(presupuesto), intereses, grupo)
+    try:
+        ruta, problemas = crear_ruta(int(dias), int(presupuesto), intereses, grupo)
+    except Exception as e:
+        return ruta_a_html(None, [f"La API no respondió ({type(e).__name__}). Espera un minuto y vuelve a intentar."])
     return ruta_a_html(ruta, problemas)
 
 
@@ -20,4 +23,4 @@ with gr.Blocks(title="Rutas del Valle del Mantaro") as demo:
         salida = gr.HTML()
     boton.click(planificar, [dias, presupuesto, intereses, grupo], salida)
 
-demo.launch(share=True)   # ← te da un link público https://....gradio.live
+demo.launch(share=True, show_error=True)   # ← te da un link público https://....gradio.live

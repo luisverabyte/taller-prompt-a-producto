@@ -18,3 +18,7 @@ def planificar(dias, presupuesto, intereses, grupo):
 #   - un gr.Button y una salida gr.HTML()
 #   - conectar con: boton.click(planificar, [entradas...], salida)
 #   - lanzarla con: demo.launch(share=True, show_error=True)   → te da el link público
+
+
+if "demo" not in globals():
+    print("👆 Falta completar el TODO: arma la interfaz con gr.Blocks (guardada en `demo`) y lánzala.")

@@ -9,7 +9,7 @@ if not os.path.exists("data/lugares.json"):
     os.chdir("taller")
 
 USE_MOCK = False   # True = sin internet / sin API key (respuestas precargadas)
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-3.5-flash-lite"   # el modelo más pequeño, barato y rápido
 
 try:
     from google.colab import userdata
@@ -31,5 +31,10 @@ elif not API_KEY:
         "pon USE_MOCK = True."
     )
 else:
-    client = genai.Client(api_key=API_KEY)
+    client = genai.Client(
+        api_key=API_KEY,
+        # si la API se satura (429, 503), reintenta sola unos segundos
+        http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(
+            attempts=5, initial_delay=2, max_delay=20, http_status_codes=[429, 500, 503, 504])),
+    )
     print("✅ Listo, conectado con", MODEL)

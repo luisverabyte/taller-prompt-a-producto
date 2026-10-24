@@ -60,6 +60,7 @@ Crear un formulario de respuesta corta y proyectar la hoja de respuestas en pant
 | Lo mismo, con el nombre correcto | No activó "Acceso desde el notebook" | Interruptor del secreto en el panel 🔑 |
 | `API key not valid` | Key copiada incompleta | Generar otra en AI Studio y pegarla de nuevo |
 | `429` / `RESOURCE_EXHAUSTED` | Límite gratuito alcanzado | Esperar 1 minuto. Si sigue: `USE_MOCK = True` |
+| `503 UNAVAILABLE` / alta demanda | El modelo se saturó | El notebook reintenta solo. Si persiste: esperar 1 minuto, probar `MODEL = "gemini-3.1-flash-lite"` o `USE_MOCK = True` |
 | `404 model not found` | El modelo cambió de nombre | Cambiar la variable `MODEL` en la primera celda |
 | Aviso rojo de pip: `dependency conflicts` | Ignóralo. No afecta al taller; confirma que al final de la celda salga ✅ |
 | `ModuleNotFoundError` | No ejecutó la primera celda | Ejecutar la celda de preparación |

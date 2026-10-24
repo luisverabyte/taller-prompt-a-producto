@@ -61,6 +61,7 @@ Crear un formulario de respuesta corta y proyectar la hoja de respuestas en pant
 | `API key not valid` | Key copiada incompleta | Generar otra en AI Studio y pegarla de nuevo |
 | `429` / `RESOURCE_EXHAUSTED` | Límite gratuito alcanzado | Esperar 1 minuto. Si sigue: `USE_MOCK = True` |
 | `404 model not found` | El modelo cambió de nombre | Cambiar la variable `MODEL` en la primera celda |
+| Aviso rojo de pip: `dependency conflicts` | Ignóralo. No afecta al taller; confirma que al final de la celda salga ✅ |
 | `ModuleNotFoundError` | No ejecutó la primera celda | Ejecutar la celda de preparación |
 | `AttributeError: 'NoneType'...` en el CP1 | Dejó `respuesta = None` | Completar el TODO de la llamada |
 | El link de Gradio no abre | Notebook cerrado o celda detenida | Volver a ejecutar la última celda y mantener la pestaña abierta |

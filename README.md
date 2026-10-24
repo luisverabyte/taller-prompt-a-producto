@@ -85,7 +85,7 @@ mock_client.py            cliente simulado para el modo sin conexión
 data/lugares.json         catálogo de lugares (datos de ejemplo, por verificar)
 data/mock_responses.json  respuestas precargadas
 tools/                    scripts para regenerar y probar los notebooks
-materiales/               runbook, kit para la organización y temporizador (temporizador.html)
+materiales/               guía paso a paso, runbook, kit para la organización y temporizador
 ```
 
 ## Para el ponente

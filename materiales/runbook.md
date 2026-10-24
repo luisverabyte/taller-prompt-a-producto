@@ -1,5 +1,7 @@
 # Runbook del ponente: De prompt a producto (45 min)
 
+> 🎤 Para el texto exacto que debes decir en cada paso, con el código para copiar y pegar, usa [guia-paso-a-paso.md](guia-paso-a-paso.md). Este runbook es el resumen de tiempos y contingencias.
+
 Guion minuto a minuto. En cada fase: qué dices, qué haces en pantalla y qué haces si algo falla.
 
 ## Antes del taller (tu checklist personal)

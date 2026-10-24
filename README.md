@@ -55,6 +55,7 @@ El notebook usa respuestas precargadas (`data/mock_responses.json`) y todo el c�
 |---|---|
 | `No encontré tu API key` | El secreto debe llamarse exactamente `GEMINI_API_KEY` y tener activado **Acceso desde el notebook**. Vuelve a ejecutar la primera celda. |
 | `429` o `RESOURCE_EXHAUSTED` | Alcanzaste el límite gratuito. Espera un minuto y reintenta, o usa `USE_MOCK = True`. Tus límites actuales están en AI Studio. |
+| `503 UNAVAILABLE` (alta demanda) | El modelo está saturado. El notebook ya reintenta solo unos segundos. Si persiste, espera un minuto, prueba otro modelo (`MODEL = "gemini-3.1-flash-lite"`) o usa `USE_MOCK = True`. |
 | `404` o `model not found` | Cambia `MODEL` en la primera celda por otro modelo Flash disponible. Para listarlos: `[m.name for m in client.models.list()]`. |
 | Aviso rojo de pip: `dependency conflicts` | Ignóralo, no afecta al taller. Lo importante es que la celda termine con ✅ |
 | `API key not valid` | Copiaste la key incompleta o con espacios. Genera otra en AI Studio. |

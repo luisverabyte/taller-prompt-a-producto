@@ -4,7 +4,7 @@ import html
 def ruta_a_html(ruta, problemas):
     """Convierte la ruta en tarjetas HTML (esto es solo presentación)."""
     if ruta is None:
-        return "<p>😕 No pude armar una ruta. Intenta de nuevo.</p>"
+        return "<p>😕 No pude armar una ruta.</p>" + "".join(f"<p>⚠️ {html.escape(a)}</p>" for a in problemas)
     e = html.escape
     out = [f"<h3>{e(ruta.resumen)}</h3>",
            f"<p><b>Costo estimado:</b> S/ {ruta.costo_total_soles} por persona</p>"]

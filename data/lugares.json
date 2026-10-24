@@ -1,0 +1,17 @@
+{
+  "_aviso": "DATOS DE EJEMPLO. Todo esta marcado como verificado=false. Costos, duraciones y distritos son aproximados y deben revisarse antes del taller. Reemplaza este archivo manteniendo el mismo formato.",
+  "lugares": [
+    {"id": "plaza-constitucion", "nombre": "Plaza Constitución y Catedral de Huancayo", "distrito": "Huancayo", "categorias": ["cultura", "familia"], "horas": 1.0, "costo_soles": 0, "descripcion": "Plaza principal de la ciudad, buen punto de partida para caminar el centro.", "verificado": false},
+    {"id": "cerrito-libertad", "nombre": "Cerrito de la Libertad", "distrito": "Huancayo", "categorias": ["naturaleza", "familia"], "horas": 1.5, "costo_soles": 5, "descripcion": "Mirador con vista panorámica de Huancayo.", "verificado": false},
+    {"id": "parque-identidad", "nombre": "Parque de la Identidad Huanca", "distrito": "Por verificar", "categorias": ["cultura", "familia"], "horas": 1.5, "costo_soles": 5, "descripcion": "Parque temático con esculturas y arquitectura que muestran la identidad huanca.", "verificado": false},
+    {"id": "torre-torre", "nombre": "Torre Torre", "distrito": "Huancayo", "categorias": ["naturaleza", "aventura"], "horas": 2.0, "costo_soles": 0, "descripcion": "Formaciones rocosas erosionadas con vista al valle.", "verificado": false},
+    {"id": "feria-dominical", "nombre": "Feria Dominical de Huancayo", "distrito": "Huancayo", "categorias": ["artesanía", "gastronomía", "cultura"], "horas": 2.5, "costo_soles": 0, "descripcion": "Feria de artesanía, textiles y comida. Solo los domingos.", "verificado": false},
+    {"id": "hualhuas", "nombre": "Hualhuas (textiles artesanales)", "distrito": "Hualhuas", "categorias": ["artesanía", "cultura"], "horas": 2.0, "costo_soles": 20, "descripcion": "Pueblo conocido por sus talleres de tejido en lana.", "verificado": false},
+    {"id": "san-jeronimo-tunan", "nombre": "San Jerónimo de Tunán (filigrana de plata)", "distrito": "San Jerónimo de Tunán", "categorias": ["artesanía", "cultura"], "horas": 2.0, "costo_soles": 30, "descripcion": "Pueblo de orfebres que trabajan la filigrana de plata.", "verificado": false},
+    {"id": "cochas-mates", "nombre": "Cochas (mates burilados)", "distrito": "Por verificar", "categorias": ["artesanía", "cultura"], "horas": 2.0, "costo_soles": 15, "descripcion": "Comunidad donde se talla el mate burilado.", "verificado": false},
+    {"id": "convento-ocopa", "nombre": "Convento de Ocopa", "distrito": "Por verificar", "categorias": ["cultura", "familia"], "horas": 2.0, "costo_soles": 10, "descripcion": "Convento franciscano con biblioteca y museo.", "verificado": false},
+    {"id": "laguna-paca", "nombre": "Laguna de Paca", "distrito": "Paca", "categorias": ["naturaleza", "gastronomía", "familia"], "horas": 3.0, "costo_soles": 25, "descripcion": "Laguna cerca de Jauja con paseo en bote y restaurantes.", "verificado": false},
+    {"id": "ingenio-truchas", "nombre": "Truchas de Ingenio", "distrito": "Ingenio", "categorias": ["gastronomía", "naturaleza", "familia"], "horas": 2.5, "costo_soles": 35, "descripcion": "Zona de criaderos y restaurantes de trucha.", "verificado": false},
+    {"id": "pachamanca", "nombre": "Almuerzo de pachamanca", "distrito": "Por verificar", "categorias": ["gastronomía"], "horas": 1.5, "costo_soles": 40, "descripcion": "Plato tradicional cocinado bajo tierra con piedras calientes.", "verificado": false}
+  ]
+}

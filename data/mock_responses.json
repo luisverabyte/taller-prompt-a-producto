@@ -1,0 +1,161 @@
+{
+  "saludo": "¡Hola desde Huancayo! Soy Gemini (respuesta precargada: estás en modo sin conexión).",
+  "ruta_1d": {
+    "resumen": "Un día para conocer el centro de Huancayo y probar un clásico de la zona.",
+    "dias": [
+      {
+        "dia": 1,
+        "titulo": "Centro y sabores",
+        "paradas": [
+          {
+            "nombre": "Plaza Constitución y Catedral de Huancayo",
+            "distrito": "Huancayo",
+            "horas": 1.0,
+            "costo_soles": 0,
+            "tip": "Ve temprano, hay menos gente."
+          },
+          {
+            "nombre": "Cerrito de la Libertad",
+            "distrito": "Huancayo",
+            "horas": 1.5,
+            "costo_soles": 5,
+            "tip": "Lleva una casaca, el viento sube con la tarde."
+          },
+          {
+            "nombre": "Almuerzo de pachamanca",
+            "distrito": "Por verificar",
+            "horas": 1.5,
+            "costo_soles": 40,
+            "tip": "Pide la porción para compartir."
+          }
+        ]
+      }
+    ],
+    "costo_total_soles": 45,
+    "advertencia": null
+  },
+  "ruta_2d": {
+    "resumen": "Dos días: ciudad y miradores el primero, artesanía el segundo.",
+    "dias": [
+      {
+        "dia": 1,
+        "titulo": "Ciudad y miradores",
+        "paradas": [
+          {
+            "nombre": "Plaza Constitución y Catedral de Huancayo",
+            "distrito": "Huancayo",
+            "horas": 1.0,
+            "costo_soles": 0,
+            "tip": "Empieza aquí para ubicarte."
+          },
+          {
+            "nombre": "Torre Torre",
+            "distrito": "Huancayo",
+            "horas": 2.0,
+            "costo_soles": 0,
+            "tip": "Lleva zapatillas con buen agarre."
+          },
+          {
+            "nombre": "Parque de la Identidad Huanca",
+            "distrito": "Por verificar",
+            "horas": 1.5,
+            "costo_soles": 5,
+            "tip": "Ideal para la última luz de la tarde."
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "titulo": "Manos artesanas",
+        "paradas": [
+          {
+            "nombre": "Hualhuas (textiles artesanales)",
+            "distrito": "Hualhuas",
+            "horas": 2.0,
+            "costo_soles": 20,
+            "tip": "Pregunta por los talleres abiertos al público."
+          },
+          {
+            "nombre": "San Jerónimo de Tunán (filigrana de plata)",
+            "distrito": "San Jerónimo de Tunán",
+            "horas": 2.0,
+            "costo_soles": 30,
+            "tip": "Compara precios antes de comprar."
+          }
+        ]
+      }
+    ],
+    "costo_total_soles": 55,
+    "advertencia": null
+  },
+  "ruta_3d": {
+    "resumen": "Tres días con ciudad, artesanía y un paseo a la laguna.",
+    "dias": [
+      {
+        "dia": 1,
+        "titulo": "Ciudad",
+        "paradas": [
+          {
+            "nombre": "Plaza Constitución y Catedral de Huancayo",
+            "distrito": "Huancayo",
+            "horas": 1.0,
+            "costo_soles": 0,
+            "tip": "Buen punto de partida."
+          },
+          {
+            "nombre": "Cerrito de la Libertad",
+            "distrito": "Huancayo",
+            "horas": 1.5,
+            "costo_soles": 5,
+            "tip": "Sube con calma, hay altura."
+          }
+        ]
+      },
+      {
+        "dia": 2,
+        "titulo": "Artesanía",
+        "paradas": [
+          {
+            "nombre": "Hualhuas (textiles artesanales)",
+            "distrito": "Hualhuas",
+            "horas": 2.0,
+            "costo_soles": 20,
+            "tip": "Lleva efectivo para comprar tejidos."
+          },
+          {
+            "nombre": "Cochas (mates burilados)",
+            "distrito": "Por verificar",
+            "horas": 2.0,
+            "costo_soles": 15,
+            "tip": "Pide ver el proceso de tallado."
+          }
+        ]
+      },
+      {
+        "dia": 3,
+        "titulo": "Laguna y sabores",
+        "paradas": [
+          {
+            "nombre": "Laguna de Paca",
+            "distrito": "Paca",
+            "horas": 3.0,
+            "costo_soles": 25,
+            "tip": "Llega antes del mediodía."
+          }
+        ]
+      }
+    ],
+    "costo_total_soles": 65,
+    "advertencia": null
+  },
+  "reto": {
+    "titulo": "Plan sugerido",
+    "pasos": [
+      "Define quién es tu usuario.",
+      "Elige el caso de uso más pequeño.",
+      "Mide si funciona con 5 personas reales."
+    ],
+    "por_que": "Respuesta precargada del modo sin conexión.",
+    "advertencia": null
+  }
+}
